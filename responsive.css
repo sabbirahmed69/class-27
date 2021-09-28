@@ -1,0 +1,204 @@
+@media (max-width:1140px){
+    .box-section {
+        width: 202px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .main-content {
+        width: 482px;
+    }
+    .manu ul li a {
+        padding: 14px 20px;
+    }
+}
+@media (max-width:1104px){
+    .manu ul li a {
+        padding: 23px 13px !important;
+    }
+    .main-content {
+        width: 482px;
+    }
+
+}
+
+@media (max-width:960px){
+    .manu ul li a {
+        padding: 25px 5px !important;
+    }
+    .manu ul {
+        margin-right: 107px;
+    }
+
+    .logo h3 {
+        font-size: 24px;
+        margin-top: 4px;
+        padding: 8px 0px;
+    }
+    .logo {
+        margin-left: 4%;
+    }
+    .banner {
+        padding: 66px 0px;
+    }
+    .main-heading {
+        width: 100%;
+    }
+    .main-heading h2 {
+        font-size: 36px;
+        padding: 10px 0px;
+    }
+    .btn {
+        padding: 10px 26px;
+        font-size: 15px;
+    }
+    .main-heading P {
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+    .box-section {
+        width: 304px;
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-top: 22px;
+    }
+    .wrepper {
+        padding: 0px 0px 0px 0px;
+    }
+    .navber {
+        width: 100%;
+    }
+    .main-content {
+        width: 100%;
+    }
+    .text1 {
+        text-align: center;
+        padding: 20px 0px;
+    }
+}
+span.navicon {
+    display: none;
+}
+.checked-now{
+    opacity: 0;
+}
+
+@media (max-width:768px){
+
+    span.navicon {
+        font-size: 25px;
+        position: absolute;
+        top: 9px;
+        left: 82%;
+        display: block;
+        color: aqua;
+    }
+    .logo {
+        width: 47%;
+    }
+    .manu {
+        width: 57%;
+        height: 100%;
+    }
+    .banner {
+        padding: 97px 0px;
+    }
+    .box-section {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 12px;
+    }
+    .about-me p {
+        font-size: 15px;
+        padding: 0px 21px;
+    }
+    .navber {
+        width: 100%;
+    }
+        .manu ul {
+        margin-right: 76px;
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+        margin-top: 14px;
+    }
+    .manu .checked-now:checked ~ ul{
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+    }
+    .manu ul li {
+        display: block;
+    }
+    .manu ul li a {
+        line-height: 0px;
+        margin-left: 114px;
+    }
+
+    .checked-now {
+        width: 50px;
+        height: 23px;
+        margin-top: 10px;
+        margin-left: 47px;
+        opacity: 0;
+    }
+    span.navicon {
+        pointer-events: none;
+    }
+}
+  .manu ul li a {
+	padding: 11px 62px;
+
+   }
+@media (max-width:576px){
+    span.navicon:hover{
+        color: red;
+    }
+    .manu ul {
+        margin-left: -30px;
+        margin-top: -6px;
+    }
+    .manu ul li a {
+        padding: 6px 101px;
+        color: black;
+        transition: 0.4s;
+    }
+    .manu ul li a:hover{
+        color: #fff;
+    }
+    .our-p p {
+        padding: 6px 36px;
+        font-size: 15px;
+    }
+    .box-section {
+        display: inline-block;
+        width: 279px;
+        box-shadow: 0px 0px 9px #ddd;
+        margin-top: 22px;
+        padding: 20px;
+    }
+    .navber img {
+        width: 100%;
+        text-align: center;
+    }
+    .main-content {
+        width: 100%;
+        margin: auto;
+    }
+    .text1 {
+        text-align: center;
+        padding: 19px 29px;
+    }
+    .our-section {
+        padding: 0px 0px;
+        background: #fff;
+    }
+    .about-section {
+        padding: 12px 0px;
+    }
+    .contact-us {
+        padding: 0px 0px;
+    }
+    .box-wrep {
+        margin-top: 22px;
+    }
+}
